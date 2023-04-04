@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Billing System</title>
+</head>
+<body>
+    <h1>Billing System</h1>
+    <form method="post" action="BillingServlet">
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" name="customerName" required><br>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required><br>
+        <label for="pricePerUnit">Price per unit:</label>
+        <input type="number" step="0.01" id="pricePerUnit" name="pricePerUnit" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
